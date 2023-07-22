@@ -1,0 +1,24 @@
+lib.sidenav = FLUIDTEMPLATE
+lib.sidenav {
+    templateName = Sidenav
+    templateRootPaths {
+        0 = EXT:pagedoctor-starter/Resources/Private/Templates/Page/
+        1 = {$page.pagedoctorstarter.templateRootPath}
+    }
+    partialRootPaths {
+        0 = EXT:pagedoctor-starter/Resources/Private/Partials/Page/
+        1 = {$page.pagedoctorstarter.partialRootPath}
+    }
+    layoutRootPaths {
+        0 = EXT:pagedoctor-starter/Resources/Private/Layouts/Page/
+        1 = {$page.pagedoctorstarter.layoutRootPath}
+    }
+    dataProcessing.10 = menu
+    dataProcessing.10 {
+        levels = 2
+        as = tree
+        expandAll = 1
+        includeSpacer = 1
+        titleField = nav_title // title
+    }
+}

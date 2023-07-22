@@ -1,0 +1,18 @@
+{
+  "name": "pagedoctor-starter",
+  "description": "Site Template which works best with Pagedoctor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ../../../Public/Css/Content/styles.css",
+    "dev": "npx tailwindcss -i ./src/input.css -o ../../../Public/Css/Content/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {}
+}

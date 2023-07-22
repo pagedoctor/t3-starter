@@ -1,0 +1,4 @@
+page {
+    bodyTagAdd = class="bg-white dark:bg-slate-900"
+}
+config.htmlTag.attributes.class = antialiased [font-feature-settings:&#x27;ss01&#x27;]
