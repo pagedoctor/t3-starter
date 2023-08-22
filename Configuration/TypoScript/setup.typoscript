@@ -48,6 +48,33 @@ page {
             0 = EXT:pagedoctor-starter/Resources/Private/Layouts/Page/
             1 = {$page.pagedoctorstarter.layoutRootPath}
         }
+
+        dataProcessing {
+            10 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+            10 {
+                languages = auto
+                as = languageMenu
+            }
+
+            20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+            20 {
+                levels = 2
+                as = menu
+                expandAll = 1
+                includeSpacer = 1
+                titleField = nav_title // title
+            }
+
+            30 = TYPO3\CMS\Frontend\DataProcessing\SiteProcessor
+            30 {
+                as = site
+            }
+
+            40 = TYPO3\CMS\Frontend\DataProcessing\SiteLanguageProcessor
+            40 {
+                as = siteLanguage
+            }
+        }
     }
 
     meta {

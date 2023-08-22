@@ -2,11 +2,11 @@
 module.exports = {
   darkMode: 'class',
   content: [
-    "../../../../../pagedoctor-*/Resources/Private/Templates/**/*.{html,js}",
-    "../../../../../pagedoctor-*/Resources/Private/Layouts/**/*.{html,js}",
-    "../../../../../pagedoctor-*/Resources/Private/Partials/**/*.{html,js}",
-    "../../../../../pagedoctor-*/Resources/Public/**/*.{html,js}",
-    "../../../../../pagedoctor-*/Configuration/TypoScript/**/*.typoscript"
+    "../../../../../{pagedoctor-*-views,t3-starter}/Resources/Private/Templates/**/*.{html,js}",
+    "../../../../../{pagedoctor-*-views,t3-starter}/Resources/Private/Layouts/**/*.{html,js}",
+    "../../../../../{pagedoctor-*-views,t3-starter}/Resources/Private/Partials/**/*.{html,js}",
+    "../../../../../{pagedoctor-*-views,t3-starter}/Resources/Public/**/*.{html,js}",
+    "../../../../../{pagedoctor-*-views,t3-starter}/Configuration/TypoScript/**/*.typoscript"
   ],
   theme: {
     extend: {},
