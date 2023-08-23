@@ -1,5 +1,7 @@
 <?php
+
 defined('TYPO3') or die('Access denied.');
+
 call_user_func(function()
 {
     /**
@@ -7,9 +9,6 @@ call_user_func(function()
      */
     $extensionKey = 'pagedoctor-starter';
 
-    /**
-     * Default TypoScript for Jack
-     */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
