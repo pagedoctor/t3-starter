@@ -1,10 +1,10 @@
 page {
     pagedoctorstarter {
         # cat=pagedoctor: starter/100/100; type=string; label=Layout Root Path: Path to layouts
-        layoutRootPath = EXT:pagedoctor-starter/Resources/Private/Layouts/Page/
+        layoutRootPath = EXT:pagedoctor_starter/Resources/Private/Layouts/Page/
         # cat=pagedoctor: starter/100/110; type=string; label=Partial Root Path: Path to partials
-        partialRootPath = EXT:pagedoctor-starter/Resources/Private/Partials/Page/
+        partialRootPath = EXT:pagedoctor_starter/Resources/Private/Partials/Page/
         # cat=pagedoctor: starter/100/120; type=string; label=Template Root Path: Path to templates
-        templateRootPath = EXT:pagedoctor-starter/Resources/Private/Templates/Page/
+        templateRootPath = EXT:pagedoctor_starter/Resources/Private/Templates/Page/
     }
 }

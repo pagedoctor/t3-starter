@@ -1,5 +1,5 @@
 page {
     includeCSS {
-        styles = EXT:pagedoctor-starter/Resources/Public/Css/Content/styles.css
+        styles = EXT:pagedoctor_starter/Resources/Public/Css/Content/styles.css
     }
 }

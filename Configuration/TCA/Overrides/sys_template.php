@@ -7,7 +7,7 @@ call_user_func(function()
     /**
      * Temporary variables
      */
-    $extensionKey = 'pagedoctor-starter';
+    $extensionKey = 'pagedoctor_starter';
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,

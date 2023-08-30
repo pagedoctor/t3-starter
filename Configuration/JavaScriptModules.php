@@ -5,6 +5,6 @@
 
 return [
     'imports' => [
-        '@atkins/pagedoctor-starter' => 'EXT:pagedoctor-starter/Resources/Public/JavaScript/'
+        '@atkins/pagedoctor_starter' => 'EXT:pagedoctor_starter/Resources/Public/JavaScript/'
     ]
 ];

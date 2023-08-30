@@ -32,7 +32,7 @@
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "pagedoctor-starter"
+      "extension-key": "pagedoctor_starter"
     }
   }
 }

@@ -1,7 +1,7 @@
-@import 'EXT:pagedoctor-starter/Configuration/TypoScript/Page/Head/setup.typoscript'
-@import 'EXT:pagedoctor-starter/Configuration/TypoScript/Page/Body/setup.typoscript'
-@import 'EXT:pagedoctor-starter/Configuration/TypoScript/Page/TailwindCSS/setup.typoscript'
-@import 'EXT:pagedoctor-starter/Configuration/TypoScript/Page/Navigation/setup.typoscript'
+@import 'EXT:pagedoctor_starter/Configuration/TypoScript/Page/Head/setup.typoscript'
+@import 'EXT:pagedoctor_starter/Configuration/TypoScript/Page/Body/setup.typoscript'
+@import 'EXT:pagedoctor_starter/Configuration/TypoScript/Page/TailwindCSS/setup.typoscript'
+@import 'EXT:pagedoctor_starter/Configuration/TypoScript/Page/Navigation/setup.typoscript'
 
 page = PAGE
 page {
@@ -37,15 +37,15 @@ page {
         }
 
         templateRootPaths {
-            0 = EXT:pagedoctor-starter/Resources/Private/Templates/Page/
+            0 = EXT:pagedoctor_starter/Resources/Private/Templates/Page/
             1 = {$page.pagedoctorstarter.templateRootPath}
         }
         partialRootPaths {
-            0 = EXT:pagedoctor-starter/Resources/Private/Partials/Page/
+            0 = EXT:pagedoctor_starter/Resources/Private/Partials/Page/
             1 = {$page.pagedoctorstarter.partialRootPath}
         }
         layoutRootPaths {
-            0 = EXT:pagedoctor-starter/Resources/Private/Layouts/Page/
+            0 = EXT:pagedoctor_starter/Resources/Private/Layouts/Page/
             1 = {$page.pagedoctorstarter.layoutRootPath}
         }
 
