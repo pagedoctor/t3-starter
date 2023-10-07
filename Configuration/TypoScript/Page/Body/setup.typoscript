@@ -2,4 +2,3 @@ page {
     bodyTagAdd = class="bg-white"
 }
 config.htmlTag.attributes.class = antialiased
-config.htmlTag.attributes.class = antialiased

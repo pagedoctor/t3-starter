@@ -1,28 +1,23 @@
-page.headerData {
-    10 = TEXT
-    10.value (
-        <script type="importmap">
-            {
-                "imports": {
-                  "@hotwired/stimulus": "https://ga.jspm.io/npm:@hotwired/stimulus@3.2.1/dist/stimulus.js",
-                  "@hotwired/turbo": "https://ga.jspm.io/npm:@hotwired/turbo@7.3.0/dist/turbo.es2017-esm.js",
-                  "alpinejs": "https://ga.jspm.io/npm:alpinejs@3.12.0/dist/module.esm.js"
-                }
-            }
-        </script>
-        <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous"></script>
-
-        <script type="module">
-            import * as Stimulus from "@hotwired/stimulus";
-            import * as Turbo from "@hotwired/turbo";
-            import * as alpinejs from "alpinejs";
-
-            window.Alpine = Alpine
-
-            Alpine.start()
-
-            // Write main module code here, or as a separate file with a "src" attribute on the module script.
-            console.log(Stimulus, Turbo, alpinejs);
-        </script>
-    )
+page.importmap {
+    application {
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/application.js
+    }
+    modules/stimulus {
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/stimulus-3.2.2.js
+        preload = 1
+        overrideModuleName = @hotwired/stimulus
+    }
+    modules/turbo {
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/turbo-7.3.0.js
+        preload = 1
+        overrideModuleName = @hotwired/turbo
+    }
+    modules/alpinejs {
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/alpinejs-3.13.0.js
+        preload = 1
+        overrideModuleName = alpinejs
+    }
+    controllers/hello_controller {
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/controllers/hello_controller.js
+    }
 }
