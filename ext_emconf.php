@@ -11,12 +11,9 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '0.5.4',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.0.0-12.1.999',
+            'typo3' => '12.0.0-12.999.999',
         ],
         'conflicts' => [],
-        'suggests' => [
-            'pagedoctor' => '0.0.0-1.999.999',
-            'setup' => '12.0.0-12.1.999',
-        ],
+        'suggests' => [],
     ],
 ];

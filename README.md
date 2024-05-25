@@ -52,10 +52,10 @@ Wir freuen uns über Beisteuerung von Bugfixes oder Anregungen. Nutzen Sie bitte
 
 ## Lizenz 
 
-Die Pagedoctor Erweiterung wird unter der [GPL2 Lizenz](LICENSE) veröffentlicht.
+Die Pagedoctor Starter Erweiterung wird unter der [MIT Lizenz](MIT-LICENSE) veröffentlicht.
 
 ## Markenrichtlinie
 
 Bitte lesen Sie unsere [Markenrichtlinie](https://www.pagedoctor.de/trademark-policy) um fälschliche Namensverwendung zu vermeiden.
 
-Copyright 2023, Pagedoctor ist eine Marke von Colin Atkins.
+Copyright 2024, Pagedoctor ist eine Marke von Colin Atkins.
