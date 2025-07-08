@@ -8,12 +8,12 @@ page.importmap {
         overrideModuleName = @hotwired/stimulus
     }
     modules/turbo {
-        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/turbo-7.3.0.js
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/turbo-8.0.13.js
         preload = 1
         overrideModuleName = @hotwired/turbo
     }
     modules/alpinejs {
-        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/alpinejs-3.13.0.js
+        path = EXT:pagedoctor_starter/Resources/Public/JavaScript/modules/alpinejs-3.14.9.js
         preload = 1
         overrideModuleName = alpinejs
     }

@@ -10,7 +10,8 @@
     "Provider Extension"
   ],
   "require": {
-    "typo3/cms-core": "^11.0 || ^12.0 || ^13.0"
+    "typo3/cms-core": "^11.0 || ^12.0 || ^13.0",
+		"atkins/importmap": "^0.1.1"
   },
   "homepage": "https://www.pagedoctor.de",
   "support": {
